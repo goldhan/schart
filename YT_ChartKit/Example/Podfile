@@ -1,0 +1,20 @@
+#use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+## 私有库 source
+source 'git@gitlab.inin88.com:mobile-stock-ios-libs/YT_Specs.git'
+
+target 'YT_ChartViewExample_Example' do
+  pod 'YT_ChartKit', :path => '../'
+  ### networking
+  pod 'YTNetworking', '~> 1.0.18'
+  ### 基础协议类
+  pod 'YT_BaseProtocolManager', '~> 0.2.1'
+  
+  target 'YT_ChartViewExample_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RenderView : UIView
 @property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, strong) NSMutableArray *datas;
 @end
 
 NS_ASSUME_NONNULL_END

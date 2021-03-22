@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2230B95D20E0ED0500AF7E40 /* YT_ChartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YT_ChartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2230B97720E0EDED00AF7E40 /* YT_ChartKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_ChartKit.h; sourceTree = "<group>"; };
+		2230B97B20E0EDF200AF7E40 /* NSArray+YT_MACalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+YT_MACalculator.h"; sourceTree = "<group>"; };
+		2230B97C20E0EDF200AF7E40 /* NSArray+YT_MACalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YT_MACalculator.m"; sourceTree = "<group>"; };
+		2230B97D20E0EDF200AF7E40 /* YT_BIASCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_BIASCalculator.h; sourceTree = "<group>"; };
+		2230B97E20E0EDF200AF7E40 /* YT_BIASCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_BIASCalculator.m; sourceTree = "<group>"; };
+		2230B97F20E0EDF200AF7E40 /* YT_BOLLCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_BOLLCalculator.h; sourceTree = "<group>"; };
+		2230B98020E0EDF200AF7E40 /* YT_BOLLCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_BOLLCalculator.m; sourceTree = "<group>"; };
+		2230B98120E0EDF200AF7E40 /* YT_CCICalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_CCICalculator.h; sourceTree = "<group>"; };
+		2230B98220E0EDF200AF7E40 /* YT_CCICalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_CCICalculator.m; sourceTree = "<group>"; };
+		2230B98320E0EDF200AF7E40 /* YT_CRCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_CRCalculator.h; sourceTree = "<group>"; };
+		2230B98420E0EDF200AF7E40 /* YT_CRCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_CRCalculator.m; sourceTree = "<group>"; };
+		2230B98520E0EDF200AF7E40 /* YT_DMACalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_DMACalculator.h; sourceTree = "<group>"; };
+		2230B98620E0EDF200AF7E40 /* YT_DMACalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_DMACalculator.m; sourceTree = "<group>"; };
+		2230B98720E0EDF200AF7E40 /* YT_DMICalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_DMICalculator.h; sourceTree = "<group>"; };
+		2230B98820E0EDF200AF7E40 /* YT_DMICalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_DMICalculator.m; sourceTree = "<group>"; };
+		2230B98920E0EDF200AF7E40 /* YT_IndexCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_IndexCalculator.h; sourceTree = "<group>"; };
+		2230B98A20E0EDF200AF7E40 /* YT_KDJCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KDJCalculator.h; sourceTree = "<group>"; };
+		2230B98B20E0EDF200AF7E40 /* YT_KDJCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KDJCalculator.m; sourceTree = "<group>"; };
+		2230B98C20E0EDF200AF7E40 /* YT_MACDCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_MACDCalculator.h; sourceTree = "<group>"; };
+		2230B98D20E0EDF200AF7E40 /* YT_MACDCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_MACDCalculator.m; sourceTree = "<group>"; };
+		2230B98E20E0EDF200AF7E40 /* YT_OBVCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_OBVCalculator.h; sourceTree = "<group>"; };
+		2230B98F20E0EDF200AF7E40 /* YT_OBVCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_OBVCalculator.m; sourceTree = "<group>"; };
+		2230B99020E0EDF200AF7E40 /* YT_RSICalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_RSICalculator.h; sourceTree = "<group>"; };
+		2230B99120E0EDF200AF7E40 /* YT_RSICalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_RSICalculator.m; sourceTree = "<group>"; };
+		2230B99220E0EDF200AF7E40 /* YT_VRCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_VRCalculator.h; sourceTree = "<group>"; };
+		2230B99320E0EDF200AF7E40 /* YT_VRCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_VRCalculator.m; sourceTree = "<group>"; };
+		2230B99420E0EDF200AF7E40 /* YT_WRCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_WRCalculator.h; sourceTree = "<group>"; };
+		2230B99520E0EDF200AF7E40 /* YT_WRCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_WRCalculator.m; sourceTree = "<group>"; };
+		2230B99620E0EDF200AF7E40 /* YT_CoordinateAxisParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_CoordinateAxisParam.h; sourceTree = "<group>"; };
+		2230B99720E0EDF200AF7E40 /* YT_CoordinateAxisParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_CoordinateAxisParam.m; sourceTree = "<group>"; };
+		2230B99820E0EDF200AF7E40 /* YT_KLineCalculateHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineCalculateHandle.h; sourceTree = "<group>"; };
+		2230B99920E0EDF200AF7E40 /* YT_KLineCalculateHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineCalculateHandle.m; sourceTree = "<group>"; };
+		2230B99A20E0EDF200AF7E40 /* YT_KLineCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineCalculator.h; sourceTree = "<group>"; };
+		2230B99B20E0EDF200AF7E40 /* YT_KLineCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineCalculator.m; sourceTree = "<group>"; };
+		2230B99C20E0EDF200AF7E40 /* YT_KlineCalculatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KlineCalculatorProtocol.h; sourceTree = "<group>"; };
+		2230B99D20E0EDF200AF7E40 /* YT_StockChartProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_StockChartProtocol.h; sourceTree = "<group>"; };
+		2230B9A020E0EDF200AF7E40 /* YT_BaseIndexLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_BaseIndexLayer.h; sourceTree = "<group>"; };
+		2230B9A120E0EDF200AF7E40 /* YT_BaseIndexLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_BaseIndexLayer.m; sourceTree = "<group>"; };
+		2230B9A220E0EDF200AF7E40 /* YT_BIASLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_BIASLayer.h; sourceTree = "<group>"; };
+		2230B9A320E0EDF200AF7E40 /* YT_BIASLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_BIASLayer.m; sourceTree = "<group>"; };
+		2230B9A420E0EDF200AF7E40 /* YT_BOLLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_BOLLLayer.h; sourceTree = "<group>"; };
+		2230B9A520E0EDF200AF7E40 /* YT_BOLLLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_BOLLLayer.m; sourceTree = "<group>"; };
+		2230B9A620E0EDF200AF7E40 /* YT_CCILayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_CCILayer.h; sourceTree = "<group>"; };
+		2230B9A720E0EDF200AF7E40 /* YT_CCILayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_CCILayer.m; sourceTree = "<group>"; };
+		2230B9A820E0EDF200AF7E40 /* YT_CRLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_CRLayer.h; sourceTree = "<group>"; };
+		2230B9A920E0EDF200AF7E40 /* YT_CRLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_CRLayer.m; sourceTree = "<group>"; };
+		2230B9AA20E0EDF200AF7E40 /* YT_DMALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_DMALayer.h; sourceTree = "<group>"; };
+		2230B9AB20E0EDF200AF7E40 /* YT_DMALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_DMALayer.m; sourceTree = "<group>"; };
+		2230B9AC20E0EDF200AF7E40 /* YT_DMILayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_DMILayer.h; sourceTree = "<group>"; };
+		2230B9AD20E0EDF200AF7E40 /* YT_DMILayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_DMILayer.m; sourceTree = "<group>"; };
+		2230B9AE20E0EDF200AF7E40 /* YT_IndexLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_IndexLayer.h; sourceTree = "<group>"; };
+		2230B9AF20E0EDF200AF7E40 /* YT_IndexLayerConfigProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_IndexLayerConfigProtocol.h; sourceTree = "<group>"; };
+		2230B9B020E0EDF200AF7E40 /* YT_IndexLayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_IndexLayerProtocol.h; sourceTree = "<group>"; };
+		2230B9B120E0EDF200AF7E40 /* YT_KDJLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KDJLayer.h; sourceTree = "<group>"; };
+		2230B9B220E0EDF200AF7E40 /* YT_KDJLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KDJLayer.m; sourceTree = "<group>"; };
+		2230B9B320E0EDF200AF7E40 /* YT_KLineMALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineMALayer.h; sourceTree = "<group>"; };
+		2230B9B420E0EDF200AF7E40 /* YT_KLineMALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineMALayer.m; sourceTree = "<group>"; };
+		2230B9B520E0EDF200AF7E40 /* YT_MACDLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_MACDLayer.h; sourceTree = "<group>"; };
+		2230B9B620E0EDF200AF7E40 /* YT_MACDLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_MACDLayer.m; sourceTree = "<group>"; };
+		2230B9B720E0EDF200AF7E40 /* YT_OBVLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_OBVLayer.h; sourceTree = "<group>"; };
+		2230B9B820E0EDF200AF7E40 /* YT_OBVLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_OBVLayer.m; sourceTree = "<group>"; };
+		2230B9B920E0EDF200AF7E40 /* YT_RSILayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_RSILayer.h; sourceTree = "<group>"; };
+		2230B9BA20E0EDF200AF7E40 /* YT_RSILayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_RSILayer.m; sourceTree = "<group>"; };
+		2230B9BB20E0EDF200AF7E40 /* YT_VOLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_VOLLayer.h; sourceTree = "<group>"; };
+		2230B9BC20E0EDF200AF7E40 /* YT_VOLLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_VOLLayer.m; sourceTree = "<group>"; };
+		2230B9BD20E0EDF200AF7E40 /* YT_VRLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_VRLayer.h; sourceTree = "<group>"; };
+		2230B9BE20E0EDF200AF7E40 /* YT_VRLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_VRLayer.m; sourceTree = "<group>"; };
+		2230B9BF20E0EDF200AF7E40 /* YT_WRLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_WRLayer.h; sourceTree = "<group>"; };
+		2230B9C020E0EDF200AF7E40 /* YT_WRLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_WRLayer.m; sourceTree = "<group>"; };
+		2230B9C220E0EDF200AF7E40 /* YT_KlineExtremePointRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KlineExtremePointRenderer.h; sourceTree = "<group>"; };
+		2230B9C320E0EDF200AF7E40 /* YT_KlineExtremePointRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KlineExtremePointRenderer.m; sourceTree = "<group>"; };
+		2230B9C420E0EDF200AF7E40 /* YT_StockChartCanvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_StockChartCanvas.h; sourceTree = "<group>"; };
+		2230B9C520E0EDF200AF7E40 /* YT_StockChartCanvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_StockChartCanvas.m; sourceTree = "<group>"; };
+		2230B9C620E0EDF200AF7E40 /* YT_StockChartRendererProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_StockChartRendererProtocol.h; sourceTree = "<group>"; };
+		2230B9C720E0EDF200AF7E40 /* YT_StringArrayRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_StringArrayRenderer.h; sourceTree = "<group>"; };
+		2230B9C820E0EDF200AF7E40 /* YT_StringArrayRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_StringArrayRenderer.m; sourceTree = "<group>"; };
+		2230B9C920E0EDF200AF7E40 /* YT_StringRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_StringRenderer.h; sourceTree = "<group>"; };
+		2230B9CA20E0EDF200AF7E40 /* YT_StringRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_StringRenderer.m; sourceTree = "<group>"; };
+		2230B9CB20E0EDF200AF7E40 /* YT_CandlestickLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_CandlestickLayer.h; sourceTree = "<group>"; };
+		2230B9CC20E0EDF200AF7E40 /* YT_CandlestickLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_CandlestickLayer.m; sourceTree = "<group>"; };
+		2230B9CD20E0EDF200AF7E40 /* YT_ChartScaler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_ChartScaler.h; sourceTree = "<group>"; };
+		2230B9CE20E0EDF200AF7E40 /* YT_ChartScaler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_ChartScaler.m; sourceTree = "<group>"; };
+		2230B9CF20E0EDF200AF7E40 /* YT_FlashingPointLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_FlashingPointLayer.h; sourceTree = "<group>"; };
+		2230B9D020E0EDF200AF7E40 /* YT_FlashingPointLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_FlashingPointLayer.m; sourceTree = "<group>"; };
+		2230B9D120E0EDF200AF7E40 /* YT_OpenLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_OpenLayer.h; sourceTree = "<group>"; };
+		2230B9D220E0EDF200AF7E40 /* YT_OpenLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_OpenLayer.m; sourceTree = "<group>"; };
+		2230B9D420E0EDF200AF7E40 /* YT_BaseScrollChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_BaseScrollChart.h; sourceTree = "<group>"; };
+		2230B9D520E0EDF200AF7E40 /* YT_BaseScrollChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_BaseScrollChart.m; sourceTree = "<group>"; };
+		2230B9D620E0EDF200AF7E40 /* YT_KLineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineChart.h; sourceTree = "<group>"; };
+		2230B9D720E0EDF200AF7E40 /* YT_KLineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineChart.m; sourceTree = "<group>"; };
+		2230B9D820E0EDF200AF7E40 /* YT_KLineChartConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineChartConfiguration.h; sourceTree = "<group>"; };
+		2230B9D920E0EDF200AF7E40 /* YT_KLineChartConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineChartConfiguration.m; sourceTree = "<group>"; };
+		2230B9DB20E0EDF200AF7E40 /* YT_Candlestick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_Candlestick.h; sourceTree = "<group>"; };
+		2230B9DC20E0EDF200AF7E40 /* YT_Candlestick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_Candlestick.m; sourceTree = "<group>"; };
+		2230B9DD20E0EDF200AF7E40 /* YT_FloatQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_FloatQueue.h; sourceTree = "<group>"; };
+		2230B9DE20E0EDF200AF7E40 /* YT_FloatQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_FloatQueue.m; sourceTree = "<group>"; };
+		2230B9DF20E0EDF200AF7E40 /* YT_Grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_Grid.h; sourceTree = "<group>"; };
+		2230B9E020E0EDF200AF7E40 /* YT_Grid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_Grid.m; sourceTree = "<group>"; };
+		2230B9E120E0EDF200AF7E40 /* YT_Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_Line.h; sourceTree = "<group>"; };
+		2230B9E220E0EDF200AF7E40 /* YT_Line.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_Line.m; sourceTree = "<group>"; };
+		2230B9E420E0EDF200AF7E40 /* YT_KLineDataCalculateCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineDataCalculateCache.h; sourceTree = "<group>"; };
+		2230B9E520E0EDF200AF7E40 /* YT_KLineDataCalculateCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineDataCalculateCache.m; sourceTree = "<group>"; };
+		2230B9E620E0EDF200AF7E40 /* YT_KLineDataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineDataProtocol.h; sourceTree = "<group>"; };
+		2230B9E720E0EDF200AF7E40 /* YT_KLineDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineDataSource.h; sourceTree = "<group>"; };
+		2230B9E820E0EDF200AF7E40 /* YT_KLineDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineDataSource.m; sourceTree = "<group>"; };
+		2230B9EA20E0EDF200AF7E40 /* YT_CrissCrossQueryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_CrissCrossQueryView.h; sourceTree = "<group>"; };
+		2230B9EB20E0EDF200AF7E40 /* YT_CrissCrossQueryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_CrissCrossQueryView.m; sourceTree = "<group>"; };
+		2230B9ED20E0EDF200AF7E40 /* YT_KLineChartStringFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KLineChartStringFormat.h; sourceTree = "<group>"; };
+		2230B9EE20E0EDF200AF7E40 /* YT_KLineChartStringFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_KLineChartStringFormat.m; sourceTree = "<group>"; };
+		2230B9EF20E0EDF200AF7E40 /* YT_KlineChartStringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_KlineChartStringUtil.h; sourceTree = "<group>"; };
+		2230B9F020E0EDF200AF7E40 /* YT_StockChartConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YT_StockChartConstants.h; sourceTree = "<group>"; };
+		2230B9F120E0EDF200AF7E40 /* YT_StockChartConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YT_StockChartConstants.m; sourceTree = "<group>"; };
+		2230B9F220E0EE3E00AF7E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2230B95920E0ED0500AF7E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2230B95320E0ED0500AF7E40 = {
+			isa = PBXGroup;
+			children = (
+				2230B9F220E0EE3E00AF7E40 /* Info.plist */,
+				2230B97720E0EDED00AF7E40 /* YT_ChartKit.h */,
+				2230B97820E0EDF200AF7E40 /* Classes */,
+				2230B95E20E0ED0500AF7E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2230B95E20E0ED0500AF7E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2230B95D20E0ED0500AF7E40 /* YT_ChartKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2230B97820E0EDF200AF7E40 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2230B97920E0EDF200AF7E40 /* Calculator */,
+				2230B99E20E0EDF200AF7E40 /* ChartLayer */,
+				2230B9D320E0EDF200AF7E40 /* ChartView */,
+				2230B9DA20E0EDF200AF7E40 /* Graphics */,
+				2230B9E320E0EDF200AF7E40 /* KLineDataSource */,
+				2230B9E920E0EDF200AF7E40 /* QueryView */,
+				2230B9EC20E0EDF200AF7E40 /* SCUtils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2230B97920E0EDF200AF7E40 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				2230B97A20E0EDF200AF7E40 /* IndexCalculator */,
+				2230B99620E0EDF200AF7E40 /* YT_CoordinateAxisParam.h */,
+				2230B99720E0EDF200AF7E40 /* YT_CoordinateAxisParam.m */,
+				2230B99820E0EDF200AF7E40 /* YT_KLineCalculateHandle.h */,
+				2230B99920E0EDF200AF7E40 /* YT_KLineCalculateHandle.m */,
+				2230B99A20E0EDF200AF7E40 /* YT_KLineCalculator.h */,
+				2230B99B20E0EDF200AF7E40 /* YT_KLineCalculator.m */,
+				2230B99C20E0EDF200AF7E40 /* YT_KlineCalculatorProtocol.h */,
+				2230B99D20E0EDF200AF7E40 /* YT_StockChartProtocol.h */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		2230B97A20E0EDF200AF7E40 /* IndexCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				2230B97B20E0EDF200AF7E40 /* NSArray+YT_MACalculator.h */,
+				2230B97C20E0EDF200AF7E40 /* NSArray+YT_MACalculator.m */,
+				2230B97D20E0EDF200AF7E40 /* YT_BIASCalculator.h */,
+				2230B97E20E0EDF200AF7E40 /* YT_BIASCalculator.m */,
+				2230B97F20E0EDF200AF7E40 /* YT_BOLLCalculator.h */,
+				2230B98020E0EDF200AF7E40 /* YT_BOLLCalculator.m */,
+				2230B98120E0EDF200AF7E40 /* YT_CCICalculator.h */,
+				2230B98220E0EDF200AF7E40 /* YT_CCICalculator.m */,
+				2230B98320E0EDF200AF7E40 /* YT_CRCalculator.h */,
+				2230B98420E0EDF200AF7E40 /* YT_CRCalculator.m */,
+				2230B98520E0EDF200AF7E40 /* YT_DMACalculator.h */,
+				2230B98620E0EDF200AF7E40 /* YT_DMACalculator.m */,
+				2230B98720E0EDF200AF7E40 /* YT_DMICalculator.h */,
+				2230B98820E0EDF200AF7E40 /* YT_DMICalculator.m */,
+				2230B98920E0EDF200AF7E40 /* YT_IndexCalculator.h */,
+				2230B98A20E0EDF200AF7E40 /* YT_KDJCalculator.h */,
+				2230B98B20E0EDF200AF7E40 /* YT_KDJCalculator.m */,
+				2230B98C20E0EDF200AF7E40 /* YT_MACDCalculator.h */,
+				2230B98D20E0EDF200AF7E40 /* YT_MACDCalculator.m */,
+				2230B98E20E0EDF200AF7E40 /* YT_OBVCalculator.h */,
+				2230B98F20E0EDF200AF7E40 /* YT_OBVCalculator.m */,
+				2230B99020E0EDF200AF7E40 /* YT_RSICalculator.h */,
+				2230B99120E0EDF200AF7E40 /* YT_RSICalculator.m */,
+				2230B99220E0EDF200AF7E40 /* YT_VRCalculator.h */,
+				2230B99320E0EDF200AF7E40 /* YT_VRCalculator.m */,
+				2230B99420E0EDF200AF7E40 /* YT_WRCalculator.h */,
+				2230B99520E0EDF200AF7E40 /* YT_WRCalculator.m */,
+			);
+			path = IndexCalculator;
+			sourceTree = "<group>";
+		};
+		2230B99E20E0EDF200AF7E40 /* ChartLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2230B99F20E0EDF200AF7E40 /* IndexLayer */,
+				2230B9C120E0EDF200AF7E40 /* RenderLayer */,
+				2230B9CB20E0EDF200AF7E40 /* YT_CandlestickLayer.h */,
+				2230B9CC20E0EDF200AF7E40 /* YT_CandlestickLayer.m */,
+				2230B9CD20E0EDF200AF7E40 /* YT_ChartScaler.h */,
+				2230B9CE20E0EDF200AF7E40 /* YT_ChartScaler.m */,
+				2230B9CF20E0EDF200AF7E40 /* YT_FlashingPointLayer.h */,
+				2230B9D020E0EDF200AF7E40 /* YT_FlashingPointLayer.m */,
+				2230B9D120E0EDF200AF7E40 /* YT_OpenLayer.h */,
+				2230B9D220E0EDF200AF7E40 /* YT_OpenLayer.m */,
+			);
+			path = ChartLayer;
+			sourceTree = "<group>";
+		};
+		2230B99F20E0EDF200AF7E40 /* IndexLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2230B9A020E0EDF200AF7E40 /* YT_BaseIndexLayer.h */,
+				2230B9A120E0EDF200AF7E40 /* YT_BaseIndexLayer.m */,
+				2230B9A220E0EDF200AF7E40 /* YT_BIASLayer.h */,
+				2230B9A320E0EDF200AF7E40 /* YT_BIASLayer.m */,
+				2230B9A420E0EDF200AF7E40 /* YT_BOLLLayer.h */,
+				2230B9A520E0EDF200AF7E40 /* YT_BOLLLayer.m */,
+				2230B9A620E0EDF200AF7E40 /* YT_CCILayer.h */,
+				2230B9A720E0EDF200AF7E40 /* YT_CCILayer.m */,
+				2230B9A820E0EDF200AF7E40 /* YT_CRLayer.h */,
+				2230B9A920E0EDF200AF7E40 /* YT_CRLayer.m */,
+				2230B9AA20E0EDF200AF7E40 /* YT_DMALayer.h */,
+				2230B9AB20E0EDF200AF7E40 /* YT_DMALayer.m */,
+				2230B9AC20E0EDF200AF7E40 /* YT_DMILayer.h */,
+				2230B9AD20E0EDF200AF7E40 /* YT_DMILayer.m */,
+				2230B9AE20E0EDF200AF7E40 /* YT_IndexLayer.h */,
+				2230B9AF20E0EDF200AF7E40 /* YT_IndexLayerConfigProtocol.h */,
+				2230B9B020E0EDF200AF7E40 /* YT_IndexLayerProtocol.h */,
+				2230B9B120E0EDF200AF7E40 /* YT_KDJLayer.h */,
+				2230B9B220E0EDF200AF7E40 /* YT_KDJLayer.m */,
+				2230B9B320E0EDF200AF7E40 /* YT_KLineMALayer.h */,
+				2230B9B420E0EDF200AF7E40 /* YT_KLineMALayer.m */,
+				2230B9B520E0EDF200AF7E40 /* YT_MACDLayer.h */,
+				2230B9B620E0EDF200AF7E40 /* YT_MACDLayer.m */,
+				2230B9B720E0EDF200AF7E40 /* YT_OBVLayer.h */,
+				2230B9B820E0EDF200AF7E40 /* YT_OBVLayer.m */,
+				2230B9B920E0EDF200AF7E40 /* YT_RSILayer.h */,
+				2230B9BA20E0EDF200AF7E40 /* YT_RSILayer.m */,
+				2230B9BB20E0EDF200AF7E40 /* YT_VOLLayer.h */,
+				2230B9BC20E0EDF200AF7E40 /* YT_VOLLayer.m */,
+				2230B9BD20E0EDF200AF7E40 /* YT_VRLayer.h */,
+				2230B9BE20E0EDF200AF7E40 /* YT_VRLayer.m */,
+				2230B9BF20E0EDF200AF7E40 /* YT_WRLayer.h */,
+				2230B9C020E0EDF200AF7E40 /* YT_WRLayer.m */,
+			);
+			path = IndexLayer;
+			sourceTree = "<group>";
+		};
+		2230B9C120E0EDF200AF7E40 /* RenderLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2230B9C220E0EDF200AF7E40 /* YT_KlineExtremePointRenderer.h */,
+				2230B9C320E0EDF200AF7E40 /* YT_KlineExtremePointRenderer.m */,
+				2230B9C420E0EDF200AF7E40 /* YT_StockChartCanvas.h */,
+				2230B9C520E0EDF200AF7E40 /* YT_StockChartCanvas.m */,
+				2230B9C620E0EDF200AF7E40 /* YT_StockChartRendererProtocol.h */,
+				2230B9C720E0EDF200AF7E40 /* YT_StringArrayRenderer.h */,
+				2230B9C820E0EDF200AF7E40 /* YT_StringArrayRenderer.m */,
+				2230B9C920E0EDF200AF7E40 /* YT_StringRenderer.h */,
+				2230B9CA20E0EDF200AF7E40 /* YT_StringRenderer.m */,
+			);
+			path = RenderLayer;
+			sourceTree = "<group>";
+		};
+		2230B9D320E0EDF200AF7E40 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				2230B9D420E0EDF200AF7E40 /* YT_BaseScrollChart.h */,
+				2230B9D520E0EDF200AF7E40 /* YT_BaseScrollChart.m */,
+				2230B9D620E0EDF200AF7E40 /* YT_KLineChart.h */,
+				2230B9D720E0EDF200AF7E40 /* YT_KLineChart.m */,
+				2230B9D820E0EDF200AF7E40 /* YT_KLineChartConfiguration.h */,
+				2230B9D920E0EDF200AF7E40 /* YT_KLineChartConfiguration.m */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		2230B9DA20E0EDF200AF7E40 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				2230B9DB20E0EDF200AF7E40 /* YT_Candlestick.h */,
+				2230B9DC20E0EDF200AF7E40 /* YT_Candlestick.m */,
+				2230B9DD20E0EDF200AF7E40 /* YT_FloatQueue.h */,
+				2230B9DE20E0EDF200AF7E40 /* YT_FloatQueue.m */,
+				2230B9DF20E0EDF200AF7E40 /* YT_Grid.h */,
+				2230B9E020E0EDF200AF7E40 /* YT_Grid.m */,
+				2230B9E120E0EDF200AF7E40 /* YT_Line.h */,
+				2230B9E220E0EDF200AF7E40 /* YT_Line.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		2230B9E320E0EDF200AF7E40 /* KLineDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2230B9E420E0EDF200AF7E40 /* YT_KLineDataCalculateCache.h */,
+				2230B9E520E0EDF200AF7E40 /* YT_KLineDataCalculateCache.m */,
+				2230B9E620E0EDF200AF7E40 /* YT_KLineDataProtocol.h */,
+				2230B9E720E0EDF200AF7E40 /* YT_KLineDataSource.h */,
+				2230B9E820E0EDF200AF7E40 /* YT_KLineDataSource.m */,
+			);
+			path = KLineDataSource;
+			sourceTree = "<group>";
+		};
+		2230B9E920E0EDF200AF7E40 /* QueryView */ = {
+			isa = PBXGroup;
+			children = (
+				2230B9EA20E0EDF200AF7E40 /* YT_CrissCrossQueryView.h */,
+				2230B9EB20E0EDF200AF7E40 /* YT_CrissCrossQueryView.m */,
+			);
+			path = QueryView;
+			sourceTree = "<group>";
+		};
+		2230B9EC20E0EDF200AF7E40 /* SCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2230B9ED20E0EDF200AF7E40 /* YT_KLineChartStringFormat.h */,
+				2230B9EE20E0EDF200AF7E40 /* YT_KLineChartStringFormat.m */,
+				2230B9EF20E0EDF200AF7E40 /* YT_KlineChartStringUtil.h */,
+				2230B9F020E0EDF200AF7E40 /* YT_StockChartConstants.h */,
+				2230B9F120E0EDF200AF7E40 /* YT_StockChartConstants.m */,
+			);
+			path = SCUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2230B95A20E0ED0500AF7E40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2230B95C20E0ED0500AF7E40 /* YT_ChartKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2230B97120E0ED0500AF7E40 /* Build configuration list for PBXNativeTarget "YT_ChartKit" */;
+			buildPhases = (
+				2230B95820E0ED0500AF7E40 /* Sources */,
+				2230B95920E0ED0500AF7E40 /* Frameworks */,
+				2230B95A20E0ED0500AF7E40 /* Headers */,
+				2230B95B20E0ED0500AF7E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YT_ChartKit;
+			productName = YT_StockChartView;
+			productReference = 2230B95D20E0ED0500AF7E40 /* YT_ChartKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2230B95420E0ED0500AF7E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yt_liyanshan;
+				TargetAttributes = {
+					2230B95C20E0ED0500AF7E40 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2230B95720E0ED0500AF7E40 /* Build configuration list for PBXProject "YT_ChartKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2230B95320E0ED0500AF7E40;
+			productRefGroup = 2230B95E20E0ED0500AF7E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2230B95C20E0ED0500AF7E40 /* YT_ChartKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2230B95B20E0ED0500AF7E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2230B95820E0ED0500AF7E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2230B96F20E0ED0500AF7E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2230B97020E0ED0500AF7E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2230B97220E0ED0500AF7E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingtong.YT-StockChartView";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2230B97320E0ED0500AF7E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingtong.YT-StockChartView";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2230B95720E0ED0500AF7E40 /* Build configuration list for PBXProject "YT_ChartKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2230B96F20E0ED0500AF7E40 /* Debug */,
+				2230B97020E0ED0500AF7E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2230B97120E0ED0500AF7E40 /* Build configuration list for PBXNativeTarget "YT_ChartKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2230B97220E0ED0500AF7E40 /* Debug */,
+				2230B97320E0ED0500AF7E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2230B95420E0ED0500AF7E40 /* Project object */;
+}

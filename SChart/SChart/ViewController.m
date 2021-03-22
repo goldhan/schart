@@ -16,9 +16,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CGFloat aw = UIScreen.mainScreen.bounds.size.width * 20;
+    CGFloat w = UIScreen.mainScreen.bounds.size.width / 10;
+    NSMutableArray *datas = [NSMutableArray array];
+    int xxx = 0;
+    bool isr = true;
+    for (int i = 200; i > 0; i--) {
+        CGPoint p = CGPointMake(aw - w * i, 20 + xxx);
+        if (isr) {
+            xxx += 20;
+        } else {
+            xxx -= 20;
+        }
+        
+        if (xxx >= 200) {
+            isr = false;
+        }
+        if (xxx <= 0) {
+            isr = true;
+        }
+        [datas addObject: NSStringFromCGPoint(p)];
+    }
+
   
     CGRect rect = self.scrollView.frame;
     _renderView = [[RenderView alloc] initWithFrame:rect];
+    _renderView.datas = datas;
     _renderView.scrollView = _scrollView;
     _renderView.backgroundColor = UIColor.clearColor;
 //    renderView.backgroundColor = [UIColor redColor];
