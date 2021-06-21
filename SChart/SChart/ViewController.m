@@ -66,8 +66,9 @@
         _scrollView.frame = CGRectMake(0, 74, UIScreen.mainScreen.bounds.size.width, 300);
         _scrollView.delegate = self;
         _scrollView.contentSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width * 20, 300);
-        _scrollView.contentOffset =CGPointMake(UIScreen.mainScreen.bounds.size.width * 20, 0);
-        
+        _scrollView.contentOffset =CGPointMake(UIScreen.mainScreen.bounds.size.width * 19, 0);
+        UITabBar *bar = [[UITabBar alloc]init];
+        bad.translucent
     }
     return  _scrollView;
 }
